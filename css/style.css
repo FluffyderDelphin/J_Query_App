@@ -20,10 +20,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(130, 206, 140);
+    background: rgb(75, 170, 88);
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(37, 58, 14, 0.616);
+    box-shadow: 5px 5px 10px rgba(31, 51, 10, 0.616);
 
 }
 .title{
@@ -42,13 +42,12 @@ body{
 }
 .btn{
     cursor: pointer;
-    background-color: rgb(188, 236, 192);
+    background-color: rgb(201, 243, 204);
     padding: 8px 15px;
     border-radius: 10px;
 }
 .btn:hover,.btn:active{
-    background-color: rgb(118, 161, 122);
-    color: rgb(231, 240, 232);
+    background-color: rgb(163, 231, 169);
 }
 
 
@@ -58,16 +57,17 @@ body{
 .list{
     text-align: left;
     margin-top: 15px;
-    color: rgb(4, 53, 12);
+    color: rgb(253, 253, 253);
 }
 
 .warning{
-    color: rgb(206, 21, 21);
-    font-size: 15px;
+    color: rgb(252, 252, 252);
+    font-size: 13px;
     margin-top: 5px;
+    padding-left: 5px;
 }
 .hidden{
-    color: rgba(0, 0, 0, 0);
+    display: none;
 }
 
 .strike{
@@ -83,5 +83,12 @@ body{
 
 li>div{
     cursor: pointer;
-    color: rgb(253, 253, 253);
+}
+
+li{
+    background-color: rgb(201, 243, 204);
+    color: rgb(4, 53, 12);
+    padding: 7px 14px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(31, 51, 10, 0.616);
 }

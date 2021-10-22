@@ -21,4 +21,6 @@ $('.btn').on('click', () => {
     li.append(cross);
 
     cross.on('click', () => li.remove());
+
+    $('.list').sortable();
 })
