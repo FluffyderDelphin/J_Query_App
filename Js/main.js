@@ -19,4 +19,6 @@ $('.btn').on('click', () => {
 
     let cross = $('<div>X</div>');
     li.append(cross);
+
+    cross.on('click', () => li.remove());
 })

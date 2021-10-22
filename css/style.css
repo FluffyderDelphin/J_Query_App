@@ -80,3 +80,8 @@ body{
    justify-content: space-between;
    margin: 10px  0;
 }
+
+li>div{
+    cursor: pointer;
+    color: rgb(253, 253, 253);
+}
