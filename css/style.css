@@ -58,7 +58,6 @@ body{
 .list{
     text-align: left;
     margin-top: 15px;
-    list-style: square inside;
     color: rgb(4, 53, 12);
 }
 
@@ -69,4 +68,15 @@ body{
 }
 .hidden{
     color: rgba(0, 0, 0, 0);
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+
+.list li{
+   display: flex;
+   justify-content: space-between;
+   margin: 10px  0;
 }
