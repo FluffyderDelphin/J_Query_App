@@ -48,7 +48,7 @@ body{
 }
 .btn:hover,.btn:active{
     background-color: rgb(118, 161, 122);
-    color: rgb(245, 245, 245);
+    color: rgb(231, 240, 232);
 }
 
 
@@ -60,4 +60,13 @@ body{
     margin-top: 15px;
     list-style: square inside;
     color: rgb(4, 53, 12);
+}
+
+.warning{
+    color: rgb(206, 21, 21);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.hidden{
+    color: rgba(0, 0, 0, 0);
 }
