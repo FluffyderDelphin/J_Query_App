@@ -15,7 +15,7 @@ $('.btn').on('click', () => {
         $('.list').append(li);
     }
 
-    text.on('dblclick', () => text.toggleClass('strike'));
+    li.on('dblclick', () => text.toggleClass('strike'));
 
     let cross = $('<div>X</div>');
     li.append(cross);
